@@ -1,0 +1,30 @@
+@import "../../mixin.scss";
+@import "../../icon.scss";
+.access-container {
+    .access-main {
+        .data-list {
+            overflow: auto;
+            .opbox {
+                overflow: hidden;
+                .op-item {
+                    float: left;
+                    cursor: pointer;
+                }
+            }
+            .img-box {
+                text-align: center;
+                width: 74px;
+                height: 56px;
+                img {
+                    display: inline-block;
+                    width: 74px;
+                    height: 56px;
+                }
+            }
+        }
+        .page-box {
+            padding: 10px 0;
+            margin: 0 auto;
+        }
+    }
+}
